@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt-get install ninja-build
+
 # make sure you are in comfyui installation folder
 mkdir -p ./models/facerestore_models/
 
