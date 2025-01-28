@@ -41,6 +41,8 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
 echo -e "import torch\nprint(torch.cuda.is_available())\nprint(torch.cuda.get_device_name(0))" > test_cuda.py
 python test_cuda.py
 
+rm cuda-repo-ubuntu2004-11-8-local_11.8.0-520.61.05-1_amd64.deb cuda-ubuntu2004.pin libtinfo5_6.3-2ubuntu0.1_amd64.deb test_cuda.py
+
 
 ## run these lines in the vm to make sure port 8188 is open for external access
 #sudo ufw allow 8188/tcp
